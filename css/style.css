@@ -1,0 +1,171 @@
+ body{
+ 	background-color: #f5f3f5!important;
+ }
+
+ .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 30px;
+}
+.header>#logo>img{
+        display: flex;
+   	 	align-items: center;
+    	justify-content: center;
+    	width:200px;
+        height: auto;
+        margin-left: 170px;
+    }
+h1{
+	color: #41b883!important;
+}
+a{
+	margin-top: 30px;
+	margin-left: 220px;
+}
+
+
+.comment{
+	
+    
+    position: absolute;
+    margin: 10px 0 0 200px;
+	
+	padding:12px;
+	width:800px;
+	position:relative;
+	background-color:#fcfcfc;
+	border:1px solid white;
+	color:#888;
+	margin-bottom:25px;
+	
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+
+	-moz-box-shadow:2px 2px 0 #c2c2c2;
+	-webkit-box-shadow:2px 2px 0 #c2c2c2;
+	box-shadow:2px 2px 0 #c2c2c2;
+}
+.comment:before {
+ content: "";
+ display: block;
+ width: 0; 
+ height: 0; 
+ border-top: 0px solid transparent;
+ border-bottom: 12px solid transparent;
+ border-right: 12px solid #fcfcfc; 
+ position: absolute;
+ top: 0px;
+ left: -12px;
+}
+
+
+.avatar{
+
+border-radius: 110px;
+	height:110px;
+	left:-130px;
+	position:absolute;
+	width:110px;
+	background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CroppedStalin1943.jpg/267px-CroppedStalin1943.jpg');
+	background-size: 110px;
+	
+	margin-top: -15px;
+	
+
+	-moz-box-shadow:1px 1px 0 #c2c2c2;
+	-webkit-box-shadow:1px 1px 0 #c2c2c2;
+	box-shadow:1px 1px 0 #c2c2c2;
+}
+
+.avatar img{
+	display:block;
+}
+
+.name{
+	font-size:20px;
+	padding-bottom:10px;
+	color:#ccc;
+}
+.date{
+	font-size:10px;
+	padding:6px 0;
+	position:absolute;
+	right:15px;
+	top:10px;
+	color:#bbb;
+}
+.comment p,
+#addCommentContainer p{
+	font-size:18px;
+	line-height:1.5;
+	overflow-x:hidden;
+
+}
+
+
+
+.addCommentContainer{
+	padding:12px;
+	width:800px;
+	position:relative;
+	background-color:#fcfcfc;
+	border:1px solid white;
+	color:#888;
+	margin-bottom:25px;
+	margin-left: 285px;
+	
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+
+	-moz-box-shadow:2px 2px 0 #c2c2c2;
+	-webkit-box-shadow:2px 2px 0 #c2c2c2;
+	box-shadow:2px 2px 0 #c2c2c2;
+}
+
+.addCommentContainer input[type=text],
+.addCommentContainer textarea{
+
+	display:block;
+	border:1px solid #ccc;
+	margin:5px 0 5px;
+	padding:3px;
+	font-size:12px;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	width: 773px;
+}
+
+#addCommentContainer textarea{
+	width:300px;
+}
+
+#name{
+	width:  773px;
+}
+
+input#submit{
+	
+	background-color:#41b883;
+	border:1px solid #3b8d74;
+	color:#f5f3f5;
+	cursor:pointer;
+	font-family:'Myriad Pro',Arial,Helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:4px;
+	width: 150px;
+	margin-top:5px;
+
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+
+#submit:hover{
+	background-color: #f5f3f5;
+	border-color:#52b1e2;
+}
